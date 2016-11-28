@@ -1,0 +1,186 @@
+html,
+body {
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+
+    cursor: none;
+}
+#wrap{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  margin: 0;
+  background:url(image/getreadyBg.png) no-repeat;
+  background-size: 100% 100%;
+}
+#start{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#start img{
+  height: 100%;
+  width: 100%;
+}
+#play,#setting{
+  width: 205px;
+  height: 72px;
+  display: inline-block;
+  position: absolute;
+}
+#play{
+  top:281px;
+  left:580px;
+}
+#setting{
+  top:389px;
+  left:580px;
+}
+.finger{
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  position: absolute;
+  background: url(image/finger1.png) no-repeat;
+  background-position: -15px -15px;
+    /*z-index: 2;*/
+}
+.up{
+    background: url(image/finger1.png) no-repeat;
+  background-position: -15px -15px;
+}
+.down{
+   background: url(image/finger2.png) no-repeat;
+}
+#getready{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+#getready img{
+  height: 100%;
+  width: 100%;
+}
+.ready{
+  width: 400px;
+  height: 72px;
+  display: inline-block;
+  position: absolute;
+  top:248px;
+  left:485px;
+  background: url(image/ready.png) no-repeat;
+}
+.go{
+  width: 115px;
+  height: 65px;
+  display: inline-block;
+  position: absolute;
+  top:248px;
+  left:635px;
+  opacity: 1;
+  background: url(image/go.png) no-repeat;
+}
+#help{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background:url(image/help.png) no-repeat;
+  background-size: 100% 100%;
+  display: none;
+}
+#help img{
+  position: absolute;
+  left: 1040px;
+  top: 140px;
+}
+.back{
+  display: block;
+  height: 60px;
+  width: 80px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+#mycanvas {
+    display: none;
+}
+#mycanvas2{
+  position: absolute;
+  top:0px;
+  display: none;
+}
+#mycanvas3{
+  background:#EEE6E6;
+  position: absolute;
+  top:0px;
+  display: none;
+}
+#end{
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: absolute;
+  top:0;
+  left: 0;
+}
+#end img{
+  height: 100%;
+  width: 100%;
+}
+#starNum{
+    height: 60px;
+    width:153px;
+    text-align: center;
+    line-height: 60px;
+    display: block;
+    position: absolute;
+    top:215px;
+    left: 700px;
+}
+#flyTime{
+    height: 60px;
+    width:153px;
+    text-align: center;
+    line-height: 60px;
+    display: block;
+    position: absolute;
+    top:326px;
+    left: 700px;
+}
+#score{
+    height: 80px;
+    width: 80px;
+    display: block;
+    background: url(image/gold.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top:437px;
+    left:749px;
+}
+#restart{
+    height:62px ;
+    width: 264px;
+    display: block;
+    background: url(image/restart.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top:557px;
+    left:563px;
+}
+#restart2{
+    height:62px ;
+    width: 264px;
+    display: block;
+    position: absolute;
+    top:557px;
+    left:563px;
+}
